@@ -1,6 +1,6 @@
 import pytest
 
-import main
+import app
 
 
 class TestApi:

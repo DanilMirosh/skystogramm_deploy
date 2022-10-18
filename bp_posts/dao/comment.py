@@ -1,5 +1,6 @@
 class Comment:
     """Абстракция для комментариев"""
+
     def __init__(self, pk=0, post_id=0, commenter_name="", comment=""):
         self.pk = pk
         self.post_id = post_id
